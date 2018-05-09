@@ -1,0 +1,92 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+.login_main {
+    max-width: 300px;
+    margin: 8vw auto;
+    background-color: rgb(242, 242, 242);
+}
+
+.login_main p {
+    text-align: center;
+    padding-bottom: 11px;
+    font-size: 13px;
+    color: rgb(209, 209, 209);
+}
+
+.login_main span:after,
+.login_main span:before {
+    content: "\00a0\00a0\00a0\00a0\00a0";
+    text-decoration: line-through;
+}
+
+.login_header {
+    background-color: rgb(74, 172, 197);
+    color: white;
+    padding: 26px 0;
+    font-size: 14px;
+    text-align: center;
+}
+
+.login_username,
+.login_password {
+    padding: 10px 5px;
+    margin-left: 20px;
+    margin-right: 20px;
+    width: 82%;
+    border: 1px solid white;
+}
+
+.login_username::placeholder,
+.login_password::placeholder {
+    color: rgb(209, 209, 209);
+}
+
+.login_password {
+    margin-top: 15px;
+}
+
+.login_button {
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 15px;
+    width: 86%;
+    padding: 9px;
+    color: white;
+}
+
+.epam_login {
+    background: rgb(146, 57, 49);
+    border: 1px solid rgb(146, 57, 49);
+}
+
+.main_button {
+    margin-top: 11%;
+    background: rgb(146, 209, 59);
+    border: 1px solid rgb(146, 209, 59);
+}
+
+.login_links {
+    display: flex;
+    flex-direction: column;
+}
+
+.forgot_pass {
+    float: right;
+    font-size: 11px;
+    padding-right: 8%;
+    padding-top: 4px;
+    color: rgb(209, 209, 209);
+}
+
+.additional {
+    display: inline-block;
+    color: rgb(32, 104, 152);
+    font-size: 13px;
+    padding-top: 21px;
+    padding-bottom: 14px;
+    margin-left: 88px;
+}
